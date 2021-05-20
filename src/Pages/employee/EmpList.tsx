@@ -33,11 +33,14 @@ export default EmpList
 
 const columns = [{
     dataField: 'name',
-    text: 'Name'
+    text: 'Name',
+    sort: true
 }, {
     dataField: 'email',
-    text: 'Email'
+    text: 'Email',
+    sort: true
 }, {
     dataField: 'position',
-    text: 'Position'
+    text: 'Position',
+    sort: true
 }];
